@@ -14,12 +14,12 @@
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* --out-dir='dist/img'",
     "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
-    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
-    "gnt": "grunt build"
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.26.7",
     "copyfiles": "^2.0.0",
     "cssmin": "^0.4.3",
     "grunt": "^1.0.2",
@@ -35,6 +35,8 @@
     "grunt-filerev": "^2.3.1",
     "grunt-sass": "^2.1.0",
     "grunt-usemin": "^3.1.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
     "htmlmin": "0.0.7",
     "imagemin-cli": "^3.0.0",
     "jit-grunt": "^0.10.0",
