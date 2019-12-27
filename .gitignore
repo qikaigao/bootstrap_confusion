@@ -1,5 +1,8 @@
-
+# packages folder
 node_modules
+
+# distribution folder
+dist
 
 # for Mac OS
 .DS_store
