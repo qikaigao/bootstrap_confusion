@@ -4,5 +4,8 @@ node_modules
 # distribution folder
 dist
 
+# grunt
+.tmp
+
 # for Mac OS
 .DS_store
